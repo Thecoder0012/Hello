@@ -11,4 +11,9 @@ public class MyController {
     public String homepage(){
         return "index";
     }
+
+    @GetMapping("/hello-mo")
+    public String getMoGreeting(){
+        return "hello-mo";
+    }
 }
